@@ -44,7 +44,7 @@ function renderHTML (data) {
         htmlString += ' and ' + data[i].foods.likes[ii]
       }
     }
-
+s
     htmlString += ' and dislikes '
 
     for (ii = 0; ii < data[i].foods.dislikes.length; ii++) {
